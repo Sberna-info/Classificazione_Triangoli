@@ -17,7 +17,7 @@ namespace Libreria_Triangoli
 
         public static string OutputTrangolo(double l1, double l2, double l3)
         {
-            string triangolo = "";
+            string triangolo;
             if (l1 == l2 && l1 == l3)
             {
                 triangolo = "equilatero";
